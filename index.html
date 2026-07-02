@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ke Wang | HKU BBA Marketing &amp; Finance | Strategy • Consumer Insight • Digital Execution</title>
+  <meta name="description" content="Ke Wang (王柯) — HKU BBA student double-majoring in Marketing and Finance. Portfolio highlighting strategy thinking, consumer insight, and digital execution for strategy consulting roles.">
+  <meta property="og:title" content="Ke Wang | HKU BBA | Strategy Thinking • Consumer Insight • Digital Execution">
+  <meta property="og:description" content="HKU BBA student combining strategic thinking, deep consumer insights, and digital execution. Targeting strategy consulting roles.">
+  <meta property="og:image" content="assets/images/hero-portrait.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+    
+    :root {
+      --deep-blue: #0F172A;
+      --accent: #0F766E; /* Elegant teal-green, used sparingly */
+    }
+    
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-feature-settings: "tnum";
+    }
+    
+    .heading-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+
+    /* Premium section headers - subtle and elegant */
+    .section-header {
+      letter-spacing: -0.025em;
+    }
+
+    .section-label {
+      letter-spacing: 0.125em;
+    }
+
+    .nav-link {
+      position: relative;
+      transition: color 0.15s ease;
+    }
+    
+    .nav-link:hover {
+      color: #0F766E;
+    }
+
+    .nav-link.active {
+      color: #0F172A;
+      font-weight: 600;
+    }
+
+    .nav-link.active:after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: #0F766E;
+      border-radius: 1px;
+    }
+
+    /* Refined cards - premium, clean */
+    .portfolio-card {
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                  box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+                  border-color 0.2s ease;
+    }
+    
+    .portfolio-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgb(15 23 42 / 0.08), 0 4px 6px -4px rgb(15 23 42 / 0.08);
+      border-color: #e2e8f0;
+    }
+
+    /* Elegant accent line - very subtle */
+    .accent-bar {
+      width: 3px;
+      background-color: #0F766E;
+    }
+
+    /* Skills pills - understated and elegant */
+    .skill-pill {
+      transition: all 0.15s ease;
+      font-weight: 500;
+    }
+    
+    .skill-pill:hover {
+      background-color: #f1f5f9;
+      border-color: #cbd5e1;
+      color: #0F172A;
+    }
+
+    .modal {
+      animation: modalPop 0.2s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+    }
+
+    @keyframes modalPop {
+      from { opacity: 0; transform: translateY(16px) scale(0.985); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    .smooth-scroll {
+      scroll-behavior: smooth;
+    }
+
+    .nav-scrolled {
+      background-color: rgba(248, 250, 252, 0.96);
+      backdrop-filter: blur(16px);
+    }
+
+    .project-image {
+      transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .portfolio-card:hover .project-image {
+      transform: scale(1.02);
+    }
+
+    /* Premium accordion styling for Asia Case sub-cases */
+    details {
+      transition: all 0.2s ease;
+    }
+    details[open] summary {
+      background-color: #f8fafc;
+    }
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .lang-btn {
+      transition: all 0.15s ease;
+      font-weight: 500;
+    }
+    
+    .lang-btn.active {
+      background-color: #0F766E;
+      color: white;
+    }
+
+    /* Better typography scale and spacing */
+    h1, h2 {
+      letter-spacing: -0.03em;
+    }
+
+    /* Hero aesthetic improvements */
+    .hero-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      letter-spacing: -0.045em;
+      line-height: 0.95;
+    }
+
+    .hero-subtitle {
+      letter-spacing: -0.02em;
+    }
+
+    .hero-photo {
+      box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
+      border: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 smooth-scroll">
+  <!-- NAVBAR -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-xl border-b border-slate-100 transition-all">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-center justify-between px-6 h-16">
+        <!-- Logo -->
+        <div class="flex items-center gap-x-3">
+          <div class="w-8 h-8 bg-[#0F172A] rounded-xl flex items-center justify-center">
+            <span class="text-white font-semibold text-lg tracking-[-1px]">KW</span>
+          </div>
+          <div class="flex items-baseline">
+            <span class="font-semibold text-xl tracking-tight text-[#0F172A]">Ke Wang</span>
+            <span class="text-xs text-[#0F766E] font-medium ml-1.5 hidden sm:inline" data-i18n="nav.title_cn">王柯</span>
+          </div>
+        </div>
+
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex items-center gap-x-8 text-sm">
+          <a href="#about" class="nav-link text-slate-600 hover:text-[#0F766E] font-medium" data-i18n="nav.about">About</a>
+          <a href="#education" class="nav-link text-slate-600 hover:text-[#0F766E] font-medium" data-i18n="nav.education">Education</a>
+          <a href="#experience" class="nav-link text-slate-600 hover:text-[#0F766E] font-medium" data-i18n="nav.experience">Experience</a>
+          <a href="#projects" class="nav-link text-slate-600 hover:text-[#0F766E] font-medium" data-i18n="nav.projects">Projects</a>
+          <a href="#skills" class="nav-link text-slate-600 hover:text-[#0F766E] font-medium" data-i18n="nav.skills">Skills</a>
+          <a href="#contact" class="nav-link text-slate-600 hover:text-[#0F766E] font-medium" data-i18n="nav.contact">Contact</a>
+        </div>
+
+        <!-- Language + Resume -->
+        <div class="flex items-center gap-x-3">
+          <!-- Language Toggle -->
+          <div class="flex items-center bg-slate-100 rounded-full p-1 text-xs font-medium">
+            <button onclick="switchLanguage('en')" id="lang-en"
+                    class="lang-btn px-3 py-1 rounded-full active">EN</button>
+            <button onclick="switchLanguage('zh')" id="lang-zh"
+                    class="lang-btn px-3 py-1 rounded-full text-slate-600 hover:text-slate-900">中文</button>
+          </div>
+
+          <!-- Resume CTA -->
+          <a href="assets/resume/Wang_Ke_Resume.pdf" download="Ke_Wang_Resume.pdf"
+             class="hidden sm:flex items-center gap-x-2 px-5 py-2 bg-[#0F172A] hover:bg-black active:bg-black transition text-white text-sm font-medium rounded-2xl">
+            <i class="fas fa-download text-xs"></i>
+            <span data-i18n="nav.resume">Resume</span>
+          </a>
+
+          <!-- Mobile Hamburger -->
+          <button id="mobile-menu-btn"
+                  class="md:hidden w-9 h-9 flex items-center justify-center text-slate-600 hover:text-[#0F766E] hover:bg-slate-100 rounded-xl"
+                  aria-label="Toggle menu">
+            <i class="fas fa-bars text-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden border-t bg-white">
+      <div class="px-6 py-4 flex flex-col gap-y-3 text-sm">
+        <a href="#about" class="mobile-nav-link py-1 text-slate-600" data-i18n="nav.about">About</a>
+        <a href="#education" class="mobile-nav-link py-1 text-slate-600" data-i18n="nav.education">Education</a>
+        <a href="#experience" class="mobile-nav-link py-1 text-slate-600" data-i18n="nav.experience">Experience</a>
+        <a href="#projects" class="mobile-nav-link py-1 text-slate-600" data-i18n="nav.projects">Projects</a>
+        <a href="#skills" class="mobile-nav-link py-1 text-slate-600" data-i18n="nav.skills">Skills</a>
+        <a href="#contact" class="mobile-nav-link py-1 text-slate-600" data-i18n="nav.contact">Contact</a>
+        
+        <a href="assets/resume/Wang_Ke_Resume.pdf" download="Ke_Wang_Resume.pdf"
+           class="mt-2 flex items-center justify-center gap-x-2 px-5 py-2.5 bg-[#0F172A] text-white font-medium rounded-2xl text-sm">
+          <i class="fas fa-download"></i>
+          <span data-i18n="nav.resume">Download Resume</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" class="pt-16 min-h-[94vh] flex items-center bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+      <div class="grid md:grid-cols-12 gap-10 md:gap-8 items-center">
+        <!-- Text Content -->
+        <div class="md:col-span-7 lg:col-span-6 xl:col-span-6">
+          <div>
+            <!-- Badge -->
+            <div class="inline-flex items-center px-3.5 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-medium tracking-[0.5px] mb-4">
+              <span data-i18n="hero.badge">HKU CLASS OF 2028</span>
+            </div>
+
+            <h1 class="text-6xl md:text-7xl font-semibold tracking-tighter leading-none mb-3">
+              <span data-i18n="hero.name">Ke Wang</span><br>
+              <span class="text-[#0F766E]" data-i18n="hero.name_cn">王柯</span>
+            </h1>
+
+            <div class="flex flex-wrap gap-3">
+              <a href="#projects" 
+                 class="inline-flex items-center justify-center gap-x-2 px-6 py-3 bg-[#0F172A] hover:bg-black transition text-white font-medium rounded-2xl text-sm">
+                <span data-i18n="hero.cta_projects">View Projects</span>
+              </a>
+              <a href="#contact" 
+                 class="inline-flex items-center justify-center gap-x-2 px-6 py-3 border border-slate-300 hover:bg-slate-50 transition font-medium rounded-2xl text-sm">
+                <span data-i18n="hero.cta_contact">Get in Touch</span>
+              </a>
+              <a href="assets/resume/Wang_Ke_Resume.pdf" download="Ke_Wang_Resume.pdf"
+                 class="inline-flex sm:hidden items-center justify-center gap-x-2 px-5 py-3 bg-[#0F172A] text-white font-medium rounded-2xl text-sm">
+                <i class="fas fa-download"></i>
+                <span data-i18n="nav.resume">Resume</span>
+              </a>
+            </div>
+
+            <div class="mt-8 flex items-center gap-x-6 text-sm text-slate-500">
+              <div class="flex items-center gap-x-1.5">
+                <span>Hong Kong</span>
+              </div>
+              <div class="h-1 w-1 bg-slate-300 rounded-full"></div>
+              <span data-i18n="hero.availability">Open to strategy consulting opportunities</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Photo -->
+        <div class="md:col-span-5 lg:col-span-5">
+          <div class="relative mx-auto max-w-[320px] md:max-w-none">
+            <!-- Hero photo: Using the user's original photo directly (WechatIMG773.jpg) from Desktop/HKU/文件/文件/.
+                 No stylistic edits applied to the final asset. -->
+            <div class="aspect-[3/4] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-slate-200/60 bg-slate-100">
+              <img src="assets/images/hero-portrait.jpg" 
+                   alt="Professional portrait of Ke Wang — HKU BBA student"
+                   class="w-full h-full object-cover">
+            </div>
+            <div class="absolute -bottom-3 -right-3 bg-white rounded-2xl shadow px-4 py-2 text-sm border border-slate-100 hidden md:flex items-center gap-x-2">
+              <div class="text-[#0F766E]"><i class="fas fa-check-circle"></i></div>
+              <span class="text-xs font-medium text-slate-600" data-i18n="hero.badge_small">HKU BBA '28</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="max-w-7xl mx-auto px-6 py-24">
+    <div class="grid md:grid-cols-12 gap-x-12 gap-y-8 items-start">
+      <div class="md:col-span-4">
+        <div class="sticky top-20">
+          <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#0F766E] section-label" data-i18n="label.about">01 / ABOUT</span>
+          <h2 class="text-5xl font-semibold tracking-tighter mt-3" data-i18n="about.title">About Me</h2>
+        </div>
+      </div>
+      <div class="md:col-span-8">
+        <div class="max-w-2xl text-[15.2px] leading-relaxed text-slate-600">
+          <p class="mb-5" data-i18n="about.bio1">
+            I am a BBA student at The University of Hong Kong double-majoring in Marketing and Finance. I approach problems through the lens of <span class="font-medium text-slate-900">strategic thinking</span>, <span class="font-medium text-slate-900">consumer insight</span>, and <span class="font-medium text-slate-900">digital execution</span>.
+          </p>
+          <p class="mb-8" data-i18n="about.bio2">
+            Through internships at Roland Berger and Ipsos, plus case competitions like Oliver Wyman, I have developed the ability to translate complex research into clear, actionable strategy — and deliver it with precision.
+          </p>
+        </div>
+
+        <!-- Three pillars -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+          <div class="border border-slate-200 rounded-2xl p-5">
+            <div class="text-[#0F766E] text-sm font-medium mb-1" data-i18n="about.pillar1">Strategic Thinking</div>
+            <div class="text-sm text-slate-600" data-i18n="about.interest1">Go-to-market strategy, competitive analysis, and structured problem-solving</div>
+          </div>
+          <div class="border border-slate-200 rounded-2xl p-5">
+            <div class="text-[#0F766E] text-sm font-medium mb-1" data-i18n="about.pillar2">Consumer Insight</div>
+            <div class="text-sm text-slate-600" data-i18n="about.interest2">In-depth interviews, qualitative &amp; quantitative research, and behavioral understanding</div>
+          </div>
+          <div class="border border-slate-200 rounded-2xl p-5">
+            <div class="text-[#0F766E] text-sm font-medium mb-1" data-i18n="about.pillar3">Digital Execution</div>
+            <div class="text-sm text-slate-600" data-i18n="about.interest3">Data analysis with Python &amp; R, bilingual deliverables, and clear storytelling</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="bg-white border-y border-slate-100">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-10 gap-y-3">
+        <div>
+          <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#0F766E] section-label" data-i18n="label.edu">02 / EDUCATION</span>
+          <h2 class="text-5xl font-semibold tracking-tighter mt-3" data-i18n="edu.title">Education</h2>
+        </div>
+        <div class="text-sm text-slate-500" data-i18n="edu.period">2024 — 2028 (Expected)</div>
+      </div>
+
+      <div class="max-w-3xl">
+        <div class="flex gap-5">
+          <div class="accent-bar w-[3px] rounded-full flex-shrink-0 self-stretch"></div>
+          <div class="flex-1">
+            <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-x-4">
+              <div>
+                <h3 class="text-2xl font-semibold tracking-tight" data-i18n="edu.school">The University of Hong Kong</h3>
+                <p class="text-[#0F766E] font-medium mt-0.5" data-i18n="edu.degree">Bachelor of Business Administration</p>
+              </div>
+              <div class="text-sm text-slate-500 whitespace-nowrap mt-1 sm:mt-0">Sep 2024 – May 2028</div>
+            </div>
+
+            <p class="mt-1.5 text-sm text-slate-600 font-medium" data-i18n="edu.major">Double Major in Marketing &amp; Finance</p>
+
+            <div class="mt-4">
+              <div class="text-xs uppercase tracking-wider text-slate-500 mb-2 font-medium" data-i18n="edu.coursework">Relevant Coursework</div>
+              <div class="flex flex-wrap gap-2">
+                <span class="skill-pill text-xs px-3 py-1 bg-white border border-slate-200 rounded-2xl">Corporate Finance</span>
+                <span class="skill-pill text-xs px-3 py-1 bg-white border border-slate-200 rounded-2xl">Introduction to Marketing</span>
+                <span class="skill-pill text-xs px-3 py-1 bg-white border border-slate-200 rounded-2xl">Introductory Econometrics</span>
+                <span class="skill-pill text-xs px-3 py-1 bg-white border border-slate-200 rounded-2xl">Analysis of Economic Data</span>
+                <span class="skill-pill text-xs px-3 py-1 bg-white border border-slate-200 rounded-2xl">Principles of Management</span>
+                <span class="skill-pill text-xs px-3 py-1 bg-white border border-slate-200 rounded-2xl">Financial Accounting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="max-w-7xl mx-auto px-6 py-24">
+    <div class="mb-10">
+      <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#0F766E] section-label" data-i18n="label.exp">03 / EXPERIENCE</span>
+      <h2 class="text-5xl font-semibold tracking-tighter mt-3" data-i18n="exp.title">Experience</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Roland Berger -->
+      <div class="portfolio-card bg-white border border-slate-200 rounded-3xl p-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="font-semibold text-lg tracking-tight">Roland Berger</div>
+            <div class="text-[#0F766E] text-sm font-medium tracking-tight">Strategic Consulting</div>
+          </div>
+          <div class="text-right text-xs text-slate-500 leading-tight">Nov 2025 – Feb 2026</div>
+        </div>
+        <div class="mt-1 mb-4 text-xs uppercase tracking-[1px] text-slate-500 font-medium" data-i18n="exp.roland.role">Project Assistant</div>
+        <ul class="space-y-2 text-[14.2px] leading-relaxed text-slate-600">
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.roland.1">Led industry research and strategy for a new energy vehicle brand launch.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.roland.2">Conducted expert interviews and produced meeting minutes and client deliverables.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.roland.3">Designed questionnaires and identified KOLs/KOCs for go-to-market planning.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.roland.4">Built strategic decks and synthesized findings for internal and client presentations.</span></li>
+        </ul>
+      </div>
+
+      <!-- Ipsos -->
+      <div class="portfolio-card bg-white border border-slate-200 rounded-3xl p-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="font-semibold text-lg tracking-tight">Ipsos Strategy3</div>
+            <div class="text-[#0F766E] text-sm font-medium tracking-tight">Strategic Consulting</div>
+          </div>
+          <div class="text-right text-xs text-slate-500 leading-tight">May – Aug 2026</div>
+        </div>
+        <div class="mt-1 mb-4 text-xs uppercase tracking-[1px] text-slate-500 font-medium" data-i18n="exp.ipsos.role">Consulting Intern</div>
+        <ul class="space-y-2 text-[14.2px] leading-relaxed text-slate-600">
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.ipsos.1">Supported China medical aesthetics market research and strategy projects, conducting and synthesizing expert interviews to generate competitive insights for client discussions.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.ipsos.2">Produced client-ready strategy reports and competitive intelligence materials, iterating multiple rounds to improve clarity and strategic relevance.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.ipsos.3">Built competitor positioning frameworks and analyzed sales data in Excel to identify key market trends and opportunities.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.ipsos.4">Developed and refined consulting-style PowerPoint presentations with structured frameworks and clear storytelling for internal reviews and client deliverables.</span></li>
+        </ul>
+      </div>
+
+      <!-- Bank -->
+      <div class="portfolio-card bg-white border border-slate-200 rounded-3xl p-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="font-semibold text-lg tracking-tight">Dongguan Rural Commercial Bank</div>
+            <div class="text-[#0F766E] text-sm font-medium tracking-tight">Finance &amp; Procurement</div>
+          </div>
+          <div class="text-right text-xs text-slate-500 leading-tight">Jul – Aug 2025</div>
+        </div>
+        <div class="mt-1 mb-4 text-xs uppercase tracking-[1px] text-slate-500 font-medium" data-i18n="exp.bank.role">Intern</div>
+        <ul class="space-y-2 text-[14.2px] leading-relaxed text-slate-600">
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.bank.1">Streamlined tender processes and implemented structured documentation checklists.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.bank.2">Reviewed bidding for compliance and supported internal audit readiness.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.bank.3">Performed financial and credit risk assessments on potential vendors.</span></li>
+        </ul>
+      </div>
+
+      <!-- Debate / Leadership -->
+      <div class="portfolio-card bg-white border border-slate-200 rounded-3xl p-8">
+        <div class="flex justify-between items-start">
+          <div>
+            <div class="font-semibold text-lg tracking-tight">HKU Mandarin Debate Team</div>
+            <div class="text-[#0F766E] text-sm font-medium tracking-tight">VP Publicity</div>
+          </div>
+          <div class="text-right text-xs text-slate-500 leading-tight">Jan 2025 – Present</div>
+        </div>
+        <div class="mt-1 mb-4 text-xs uppercase tracking-[1px] text-slate-500 font-medium" data-i18n="exp.debate.role">Leadership</div>
+        <ul class="space-y-2 text-[14.2px] leading-relaxed text-slate-600">
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.debate.1">Led WeChat content strategy and design. One article exceeded 1,000 reads.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.debate.2">Core member of runner-up team at the World Chinese Freshman Debate Invitational.</span></li>
+          <li class="flex gap-2.5"><span class="mt-1.5 block w-1 h-1 bg-slate-300 rounded-full flex-shrink-0"></span><span data-i18n="exp.debate.3">Represented HKU at the HKSAR Budget Press Conference as student delegate.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY PROJECTS -->
+  <section id="projects" class="bg-slate-950 text-white py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+        <div>
+          <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#14b8a6]" data-i18n="label.proj">04 / SELECTED WORK</span>
+          <h2 class="text-5xl font-semibold tracking-tighter mt-3 text-white" data-i18n="proj.title">Key Projects</h2>
+        </div>
+        <p class="max-w-sm text-sm text-slate-400 mt-3 md:mt-0" data-i18n="proj.subtitle">Strategic analysis and case work across consulting, research, and academia.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Project 1: Oliver Wyman -->
+        <div onclick="openProjectModal(0)" class="portfolio-card bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden cursor-pointer group">
+          <div class="aspect-video overflow-hidden bg-slate-950">
+            <img src="assets/images/project-ow.jpg" alt="The Ordinary Intelligence (TOI) Native Agentic AI Growth Strategy - Oliver Wyman case" class="project-image w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-3">
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.case">CASE COMP</span>
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.ai">AI STRATEGY</span>
+            </div>
+            <h3 class="font-semibold text-[17px] tracking-tight leading-snug group-hover:text-[#14b8a6] transition-colors" data-i18n="proj1.title">The Ordinary Intelligence (TOI): Native Agentic AI Growth Strategy</h3>
+            <p class="mt-3 text-[13.5px] text-slate-400 leading-relaxed line-clamp-3" data-i18n="proj1.one">Oliver Wyman IMPACT Hong Kong — Built The Ordinary's own agentic AI (TOI) with 2+1 experience to reclaim customer ownership from third-party AI in the skincare space.</p>
+            <div class="mt-5 text-[#14b8a6] text-xs font-medium flex items-center gap-1 group-hover:gap-2 transition-all" data-i18n="proj.view">View case details <i class="fas fa-arrow-right text-[10px]"></i></div>
+          </div>
+        </div>
+
+        <!-- Project 2: Ipsos Consumer -->
+        <div onclick="openProjectModal(1)" class="portfolio-card bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden cursor-pointer group">
+          <div class="aspect-video overflow-hidden bg-slate-950">
+            <img src="assets/images/project-ipsos.jpg" alt="Ipsos consumer behavior research in medical aesthetics" class="project-image w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-3">
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.consumer">CONSUMER INSIGHT</span>
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.bilingual">BILINGUAL</span>
+            </div>
+            <h3 class="font-semibold text-[17px] tracking-tight leading-snug group-hover:text-[#14b8a6] transition-colors" data-i18n="proj2.title">Consumer Behavior Research — Medical Aesthetics</h3>
+            <p class="mt-3 text-[13.5px] text-slate-400 leading-relaxed line-clamp-3" data-i18n="proj2.one">Conducted 20+ expert interviews and delivered bilingual insight reports for clients in the medical aesthetics sector.</p>
+            <div class="mt-5 text-[#14b8a6] text-xs font-medium flex items-center gap-1 group-hover:gap-2 transition-all" data-i18n="proj.view">View case details <i class="fas fa-arrow-right text-[10px]"></i></div>
+          </div>
+        </div>
+
+        <!-- Project 3: Meituan -->
+        <div onclick="openProjectModal(2)" class="portfolio-card bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden cursor-pointer group">
+          <div class="aspect-video overflow-hidden bg-slate-950">
+            <img src="assets/images/project-meituan.jpg" alt="Meituan sustainable tourism analytics and marketing strategy in Guangdong Province" class="project-image w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-3">
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.lead">TEAM LEAD</span>
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.sustainable">SUSTAINABLE</span>
+            </div>
+            <h3 class="font-semibold text-[17px] tracking-tight leading-snug group-hover:text-[#14b8a6] transition-colors" data-i18n="proj3.title">Sustainable Tourism Marketing Strategy</h3>
+            <p class="mt-3 text-[13.5px] text-slate-400 leading-relaxed line-clamp-3" data-i18n="proj3.one">Meituan Analytics Competition — Led analysis of 10k+ reviews and proposed data-driven strategies for niche destinations in Guangdong Province.</p>
+            <div class="mt-5 text-[#14b8a6] text-xs font-medium flex items-center gap-1 group-hover:gap-2 transition-all" data-i18n="proj.view">View case details <i class="fas fa-arrow-right text-[10px]"></i></div>
+          </div>
+        </div>
+
+        <!-- Project 4: Asia Case Research Center -->
+        <div onclick="openProjectModal(3)" class="portfolio-card bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden cursor-pointer group">
+          <div class="h-40 bg-gradient-to-br from-[#0F172A] via-slate-800 to-slate-900 flex items-center justify-center p-6 relative">
+            <div class="text-center z-10">
+              <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-white/10 text-[#14b8a6] text-[10px] tracking-[1px] font-medium mb-2" data-i18n="label.academic">ACADEMIC CASE SERIES</div>
+              <div class="text-white text-[17px] font-semibold leading-tight">Asia Case Research Center</div>
+              <div class="text-slate-400 text-sm mt-1" data-i18n="edu.school">The University of Hong Kong</div>
+            </div>
+            <!-- Visual indicators for 4 cases -->
+            <div class="absolute bottom-3 right-3 flex -space-x-1">
+              <div class="w-4 h-4 rounded-full bg-white/20 border border-white/30"></div>
+              <div class="w-4 h-4 rounded-full bg-white/30 border border-white/40"></div>
+              <div class="w-4 h-4 rounded-full bg-[#14b8a6]/60 border border-white/30"></div>
+              <div class="w-4 h-4 rounded-full bg-emerald-400/70 border border-white/30"></div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-3">
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.academic2">ACADEMIC</span>
+              <span class="text-[10px] px-3 py-px bg-white/5 text-white/60 rounded-full tracking-wider" data-i18n="tag.cases">4 CASES • A GRADE</span>
+            </div>
+            <h3 class="font-semibold text-[17px] tracking-tight leading-snug group-hover:text-[#14b8a6] transition-colors" data-i18n="proj4.title">Asia Case Research Center</h3>
+            <p class="mt-3 text-[13.5px] text-slate-400 leading-relaxed line-clamp-3" data-i18n="proj4.one">In-depth strategic case analyses at HKU. All 4 cases received an A after expert review.</p>
+            <div class="mt-5 text-[#14b8a6] text-xs font-medium flex items-center gap-1 group-hover:gap-2 transition-all" data-i18n="proj4.view">Explore the 4 cases <i class="fas fa-arrow-right text-[10px]"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="max-w-7xl mx-auto px-6 py-24">
+    <div class="mb-10">
+      <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#0F766E] section-label" data-i18n="label.skills">05 / CAPABILITIES</span>
+      <h2 class="text-5xl font-semibold tracking-tighter mt-3" data-i18n="skills.title">Skills</h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10">
+      <div>
+        <div class="font-medium text-sm tracking-wider text-[#0F766E] mb-3" data-i18n="skills.pillar1">STRATEGIC THINKING</div>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Competitive Benchmarking</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Go-to-Market Strategy</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Case Analysis</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Growth Frameworks</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="font-medium text-sm tracking-wider text-[#0F766E] mb-3" data-i18n="skills.pillar2">CONSUMER INSIGHT</div>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Consumer Insights</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">In-depth Interviews</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Survey Design</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Bilingual Reporting</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="font-medium text-sm tracking-wider text-[#0F766E] mb-3" data-i18n="skills.pillar3">DIGITAL EXECUTION</div>
+        <div class="flex flex-wrap gap-2 text-sm">
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Python &amp; R</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Excel Modeling</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">Data Visualization</span>
+          <span class="skill-pill text-xs px-3.5 py-1 rounded-2xl border border-slate-200 bg-white">PowerPoint &amp; Canva</span>
+        </div>
+      </div>
+
+      <div class="sm:col-span-2 lg:col-span-3 pt-2 border-t border-slate-100">
+        <div class="font-medium text-sm tracking-wider text-[#0F766E] mb-2" data-i18n="skills.languages">LANGUAGES</div>
+        <div class="flex flex-wrap gap-x-8 gap-y-1 text-sm text-slate-600">
+          <div><span class="font-medium text-slate-900">Mandarin</span> — Native</div>
+          <div><span class="font-medium text-slate-900">English</span> — Fluent (IELTS 8.0)</div>
+          <div><span class="font-medium text-slate-900">Cantonese</span> — Basic</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME + CONTACT -->
+  <section id="contact" class="bg-white border-t border-slate-100">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-16">
+        
+        <!-- Resume CTA -->
+        <div>
+          <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#0F766E]" data-i18n="label.resume">RESUME</span>
+          <h2 class="text-5xl font-semibold tracking-tighter mt-3" data-i18n="resume.title">Download my resume</h2>
+          <p class="mt-3 text-slate-600 max-w-md" data-i18n="resume.desc">A clear summary of my experience in strategy, research, and execution.</p>
+          
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="assets/resume/Wang_Ke_Resume.pdf" download="Ke_Wang_Resume.pdf"
+               class="flex-1 sm:flex-none inline-flex justify-center items-center gap-x-3 px-7 py-3.5 bg-[#0F172A] hover:bg-black transition font-medium rounded-2xl text-white text-sm">
+              <i class="fas fa-file-pdf"></i>
+              <span data-i18n="resume.download_en">Download English Resume (PDF)</span>
+            </a>
+            <div onclick="alert('Bilingual details are available throughout this portfolio. A dedicated Chinese resume version is available upon request.')" 
+                 class="flex-1 sm:flex-none inline-flex cursor-pointer justify-center items-center gap-x-3 px-6 py-3.5 border border-slate-300 hover:bg-slate-50 font-medium rounded-2xl text-sm">
+              <span data-i18n="resume.bilingual">Bilingual Content</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-500 mt-3">Full academic transcripts and case competition materials available upon request.</p>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <span class="uppercase tracking-[1.5px] text-xs font-medium text-[#0F766E]" data-i18n="label.next">06 / NEXT STEP</span>
+          <h2 class="text-5xl font-semibold tracking-tighter mt-3" data-i18n="contact.title">Let's connect</h2>
+          
+          <div class="mt-6 text-sm space-y-2">
+            <div>
+              <a href="mailto:kkatherine0819@gmail.com" class="font-medium text-[#0F766E] hover:underline">kkatherine0819@gmail.com</a>
+            </div>
+            <div>
+              <a href="tel:+8613112862292" class="font-medium text-[#0F766E] hover:underline">+86-13112862292</a>
+            </div>
+            <div>
+              <a href="tel:+85267008769" class="font-medium text-[#0F766E] hover:underline">+852 6700 8769</a>
+            </div>
+            <div class="text-slate-500" data-i18n="contact.location">Hong Kong</div>
+          </div>
+
+          <form id="contact-form" onsubmit="handleContactSubmit(event)" class="mt-7 space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <input type="text" id="name" placeholder="Name" required 
+                     class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:outline-none focus:border-[#0F766E] text-sm">
+              <input type="email" id="email" placeholder="Email" required
+                     class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:outline-none focus:border-[#0F766E] text-sm">
+            </div>
+            <textarea id="message" rows="3" placeholder="Message" required
+                      class="w-full px-4 py-3 rounded-2xl border border-slate-200 focus:outline-none focus:border-[#0F766E] text-sm resize-y"></textarea>
+            <button type="submit" 
+                    class="w-full py-3.5 rounded-2xl bg-[#0F172A] text-white font-medium hover:bg-black active:bg-black transition text-sm">
+              <span data-i18n="contact.send">Send Message</span>
+            </button>
+            <p class="text-xs text-center text-slate-400" data-i18n="contact.note">Opens your email client. I usually reply within 48 hours.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t text-xs text-slate-400 py-6">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-y-1 text-center md:text-left">
+      <div>© 2026 Ke Wang (王柯). All rights reserved.</div>
+      <div class="flex flex-col md:flex-row items-center gap-x-4 gap-y-1 text-slate-500">
+        <span>HKU BBA • Marketing &amp; Finance</span>
+        <span class="hidden md:inline">•</span>
+        <a href="tel:+8613112862292" class="hover:text-[#0F766E]">+86-13112862292</a>
+        <span class="hidden md:inline">•</span>
+        <a href="tel:+85267008769" class="hover:text-[#0F766E]">+852 6700 8769</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT MODAL -->
+  <div id="project-modal" onclick="if (event.target.id === 'project-modal') closeModal()" class="hidden fixed inset-0 z-[60] bg-black/70 flex items-center justify-center p-4">
+    <div onclick="event.stopImmediatePropagation()" 
+         class="modal bg-white w-full max-w-4xl rounded-3xl shadow-2xl overflow-hidden max-h-[92vh] flex flex-col">
+      <!-- Modal header -->
+      <div class="px-6 py-4 flex items-center justify-between border-b">
+        <div id="modal-tags" class="flex gap-2"></div>
+        <button onclick="closeModal()" class="text-3xl leading-none text-slate-400 hover:text-slate-600">&times;</button>
+      </div>
+      
+      <div class="overflow-auto p-6">
+        <h3 id="modal-title" class="text-3xl font-semibold tracking-tight text-slate-900"></h3>
+        <div id="modal-org" class="text-[#0F766E] font-medium mt-1"></div>
+        
+        <div class="my-6 rounded-2xl overflow-hidden border">
+          <img id="modal-image" class="w-full" alt="">
+        </div>
+
+        <div class="prose prose-slate max-w-none text-[15px]">
+          <div id="modal-desc" class="text-slate-700 leading-relaxed"></div>
+          <div id="modal-details" class="mt-6 text-sm"></div>
+        </div>
+      </div>
+
+      <div class="px-6 py-4 border-t bg-slate-50 flex justify-end gap-3">
+        <button onclick="closeModal()" 
+                class="px-5 py-2 text-sm font-medium rounded-2xl hover:bg-white">Close</button>
+        <a id="modal-cta" href="#contact" onclick="closeModal()" 
+           class="px-5 py-2 bg-[#0F172A] hover:bg-black text-white font-medium text-sm rounded-2xl flex items-center gap-x-2">
+          <span data-i18n="modal.cta">Discuss this project</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Tailwind script configuration
+    function initTailwind() {
+      document.querySelectorAll('script').forEach(s => {
+        if (s.src && s.src.includes('tailwindcss')) {
+          // Already loaded via CDN
+        }
+      });
+      
+      // Tailwind play CDN configuration
+      if (window.tailwind) {
+        window.tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'deep-blue': '#0F172A',
+                'fresh-green': '#059669'
+              }
+            }
+          }
+        };
+      }
+    }
+
+    // Full bilingual translations
+    const translations = {
+      en: {
+        "nav.title_cn": "王柯",
+        "nav.about": "About",
+        "nav.education": "Education",
+        "nav.experience": "Experience",
+        "nav.projects": "Projects",
+        "nav.skills": "Skills",
+        "nav.contact": "Contact",
+        "nav.resume": "Resume",
+        
+        "hero.badge": "HKU BBA '28",
+        "hero.name": "Ke Wang",
+        "hero.name_cn": "王柯",
+        "hero.intro": "I’m endlessly curious about how consumers think and markets shift — and I turn those insights into strategies that help brands grow with purpose.",
+        "hero.cta_work": "See my work",
+        "hero.cta_connect": "Let's connect",
+        "hero.meta": "Hong Kong • Open to strategy consulting and marketing roles",
+        "hero.badge_small": "HKU BBA '28",
+        "hero.exploring": "Currently exploring consumer trends across Asia",
+
+        "about.title": "About Me",
+        "about.bio1": "I am a BBA student at The University of Hong Kong double-majoring in Marketing and Finance. I approach problems through the lens of strategic thinking, consumer insight, and digital execution.",
+        "about.bio2": "Through internships at Roland Berger and Ipsos, plus case competitions like Oliver Wyman, I have developed the ability to translate complex research into clear, actionable strategy — and deliver it with precision.",
+        "about.pillar1": "Strategic Thinking",
+        "about.pillar2": "Consumer Insight",
+        "about.pillar3": "Digital Execution",
+        "about.interest1": "Go-to-market strategy, competitive analysis, and structured problem-solving",
+        "about.interest2": "In-depth interviews, qualitative & quantitative research, and behavioral understanding",
+        "about.interest3": "Data analysis with Python & R, bilingual deliverables, and clear storytelling",
+
+        "edu.title": "Education",
+        "edu.school": "The University of Hong Kong",
+        "edu.degree": "Bachelor of Business Administration",
+        "edu.major": "Double Major in Marketing & Finance",
+        "edu.coursework": "Relevant Coursework",
+        "edu.period": "2024 — 2028 (Expected)",
+
+        "exp.title": "Experience",
+        "exp.roland.role": "Project Assistant",
+        "exp.roland.1": "Led industry research and strategy for a new energy vehicle brand launch.",
+        "exp.roland.2": "Conducted expert interviews and produced meeting minutes and client deliverables.",
+        "exp.roland.3": "Designed questionnaires and identified KOLs/KOCs for go-to-market planning.",
+        "exp.roland.4": "Built strategic decks and synthesized findings for internal and client presentations.",
+        "exp.ipsos.role": "Consulting Intern",
+        "exp.ipsos.1": "Supported China medical aesthetics market research and strategy projects, conducting and synthesizing expert interviews to generate competitive insights for client discussions.",
+        "exp.ipsos.2": "Produced client-ready strategy reports and competitive intelligence materials, iterating multiple rounds to improve clarity and strategic relevance.",
+        "exp.ipsos.3": "Built competitor positioning frameworks and analyzed sales data in Excel to identify key market trends and opportunities.",
+        "exp.ipsos.4": "Developed and refined consulting-style PowerPoint presentations with structured frameworks and clear storytelling for internal reviews and client deliverables.",
+        "exp.bank.role": "Intern",
+        "exp.bank.1": "Streamlined tender processes and implemented structured documentation checklists.",
+        "exp.bank.2": "Reviewed bidding for compliance and supported internal audit readiness.",
+        "exp.bank.3": "Performed financial and credit risk assessments on potential vendors.",
+        "exp.debate.role": "Leadership",
+        "exp.debate.1": "Led WeChat content strategy and design. One article exceeded 1,000 reads.",
+        "exp.debate.2": "Core member of runner-up team at the World Chinese Freshman Debate Invitational.",
+        "exp.debate.3": "Represented HKU at the HKSAR Budget Press Conference as student delegate.",
+
+        "proj.title": "Key Projects",
+        "proj.subtitle": "Strategic analysis and case work across consulting, research, and academia.",
+        "proj1.title": "The Ordinary Intelligence (TOI): Native Agentic AI Growth Strategy",
+        "proj1.one": "Oliver Wyman IMPACT Hong Kong — Built The Ordinary's own agentic AI (TOI) with 2+1 experience to reclaim customer ownership from third-party AI in the skincare space.",
+        "proj2.title": "Consumer Behavior Research — Medical Aesthetics",
+        "proj2.one": "Conducted 20+ expert interviews and delivered bilingual insight reports for clients in the medical aesthetics sector.",
+        "proj3.title": "Sustainable Tourism Marketing Strategy",
+        "proj3.one": "Meituan Analytics Competition — Led analysis of 10k+ reviews and proposed data-driven strategies for niche destinations in Guangdong Province.",
+        "proj4.title": "Asia Case Research Center",
+        "proj4.one": "In-depth strategic case analyses at HKU. All 4 cases received an A after expert review.",
+        "proj.view": "View case details <i class=\"fas fa-arrow-right text-[10px]\"></i>",
+        "proj4.view": "Explore the 4 cases <i class=\"fas fa-arrow-right text-[10px]\"></i>",
+
+        "skills.title": "Skills",
+        "skills.pillar1": "STRATEGIC THINKING",
+        "skills.pillar2": "CONSUMER INSIGHT",
+        "skills.pillar3": "DIGITAL EXECUTION",
+        "skills.languages": "LANGUAGES",
+
+        "resume.title": "Download my resume",
+        "resume.desc": "A clear summary of my experience in strategy, research, and execution.",
+        "resume.download_en": "Download English Resume (PDF)",
+        "resume.bilingual": "Bilingual Content",
+
+        "contact.title": "Let's connect",
+        "contact.send": "Send Message",
+        "contact.note": "Opens your email client. I usually reply within 48 hours.",
+        "contact.location": "Hong Kong",
+
+        "modal.cta": "Discuss this project",
+
+        "label.about": "01 / ABOUT",
+        "label.edu": "02 / EDUCATION",
+        "label.exp": "03 / EXPERIENCE",
+        "label.proj": "04 / SELECTED WORK",
+        "label.skills": "05 / CAPABILITIES",
+        "label.resume": "RESUME",
+        "label.next": "06 / NEXT STEP",
+        "label.academic": "ACADEMIC CASE SERIES",
+
+        "tag.case": "CASE COMP",
+        "tag.ai": "AI STRATEGY",
+        "tag.consumer": "CONSUMER INSIGHT",
+        "tag.bilingual": "BILINGUAL",
+        "tag.lead": "TEAM LEAD",
+        "tag.sustainable": "SUSTAINABLE",
+        "tag.academic2": "ACADEMIC",
+        "tag.cases": "4 CASES • A GRADE"
+      },
+      zh: {
+        "nav.title_cn": "王柯",
+        "nav.about": "关于我",
+        "nav.education": "教育背景",
+        "nav.experience": "实习经历",
+        "nav.projects": "核心项目",
+        "nav.skills": "技能",
+        "nav.contact": "联系方式",
+        "nav.resume": "简历",
+
+        "hero.badge": "港大 BBA '28",
+        "hero.name": "Ke Wang",
+        "hero.name_cn": "王柯",
+        "hero.intro": "我对消费者如何思考以及市场如何变化充满好奇 —— 我将这些洞察转化为帮助品牌有目的地增长的策略。",
+        "hero.cta_work": "查看我的项目",
+        "hero.cta_connect": "联系我",
+        "hero.meta": "香港 • 欢迎战略咨询与营销相关机会",
+        "hero.badge_small": "港大 BBA '28",
+        "hero.exploring": "目前正在探索亚洲消费者趋势",
+
+        "about.title": "关于我",
+        "about.bio1": "我是香港大学工商管理学院的学生，主修市场营销与金融双学位。我通过战略思维、消费者洞察和数字执行来解决问题。",
+        "about.bio2": "通过罗兰贝格和益普索的实习，以及奥纬咨询等案例竞赛，我培养了将复杂研究转化为清晰可执行战略的能力，并以精准的方式交付。",
+        "about.pillar1": "战略思维",
+        "about.pillar2": "消费者洞察",
+        "about.pillar3": "数字执行",
+        "about.interest1": "市场进入战略、竞品分析与结构化问题解决",
+        "about.interest2": "深度访谈、定性与定量研究及行为洞察",
+        "about.interest3": "Python & R 数据分析、双语交付与清晰叙事",
+
+        "edu.title": "教育背景",
+        "edu.school": "香港大学",
+        "edu.degree": "工商管理学士",
+        "edu.major": "市场营销与金融双主修",
+        "edu.coursework": "相关课程",
+        "edu.period": "2024 — 2028（预计）",
+
+        "exp.title": "实习经历",
+        "exp.roland.role": "项目助理",
+        "exp.roland.1": "主导新能源汽车品牌上市的行业研究与战略制定。",
+        "exp.roland.2": "开展专家访谈，撰写会议纪要与客户交付材料。",
+        "exp.roland.3": "设计问卷并识别KOL与KOC以支持市场进入规划。",
+        "exp.roland.4": "制作战略演示文稿，并综合发现用于内部及客户演示。",
+        "exp.ipsos.role": "咨询实习生",
+        "exp.ipsos.1": "支持中国医美市场研究与战略项目，组织并综合专家访谈，为客户讨论生成竞争洞察。",
+        "exp.ipsos.2": "制作客户可直接使用的战略报告与竞争情报材料，经多轮迭代提升清晰度与战略相关性。",
+        "exp.ipsos.3": "搭建竞争定位框架，并通过Excel分析销售数据，识别关键市场趋势与机会。",
+        "exp.ipsos.4": "开发并完善咨询风格的PowerPoint演示，运用结构化框架与清晰叙事，用于内部评审和客户交付。",
+        "exp.bank.role": "实习生",
+        "exp.bank.1": "精简招投标流程，并推行结构化文档清单。",
+        "exp.bank.2": "审核投标合规性，支持内部审计准备。",
+        "exp.bank.3": "对潜在供应商执行财务与信用风险评估。",
+        "exp.debate.role": "领导力",
+        "exp.debate.1": "负责微信内容策略与设计，单篇文章阅读量超过1000。",
+        "exp.debate.2": "作为核心成员，助力团队在世界中文新生辩论邀请赛获亚军。",
+        "exp.debate.3": "作为学生代表，在香港特别行政区财政预算案新闻发布会代表港大出席。",
+
+        "proj.title": "核心项目",
+        "proj.subtitle": "通过竞赛与真实客户项目，展现战略、研究与可持续营销能力。",
+        "proj1.title": "The Ordinary Intelligence (TOI)：原生智能体AI增长战略",
+        "proj1.one": "奥纬咨询 IMPACT 香港赛 — 为The Ordinary打造专属智能体AI（TOI），通过2+1体验在智能体AI时代重新掌控客户关系。",
+        "proj2.title": "医美行业消费者行为研究",
+        "proj2.one": "开展20+场专家访谈，为医美行业客户提供双语洞察报告。",
+        "proj3.title": "可持续旅游营销策略",
+        "proj3.one": "美团商业分析竞赛 — 带领分析超1万条评论，针对广东省特色目的地提出数据驱动策略。",
+        "proj4.title": "亚洲案例研究中心",
+        "proj4.one": "香港大学亚洲案例研究中心开展的深度战略案例分析。所有4个案例经专家评审后均获A级。",
+        "proj.view": "查看案例详情 <i class=\"fas fa-arrow-right text-[10px]\"></i>",
+        "proj4.view": "探索4个案例 <i class=\"fas fa-arrow-right text-[10px]\"></i>",
+
+        "skills.title": "技能",
+        "skills.pillar1": "战略思维",
+        "skills.pillar2": "消费者洞察",
+        "skills.pillar3": "数字执行",
+        "skills.languages": "语言",
+
+        "resume.title": "下载我的简历",
+        "resume.desc": "包含教育、实习、项目和技能的简洁概述。",
+        "resume.download_en": "下载英文简历 (PDF)",
+        "resume.bilingual": "双语内容",
+
+        "contact.title": "与我联系",
+        "contact.send": "发送消息",
+        "contact.note": "将通过邮件客户端发送。我通常在48小时内回复。",
+        "contact.location": "香港",
+
+        "modal.cta": "讨论这个项目",
+
+        "label.about": "01 / 关于我",
+        "label.edu": "02 / 教育背景",
+        "label.exp": "03 / 实习经历",
+        "label.proj": "04 / 精选项目",
+        "label.skills": "05 / 专业能力",
+        "label.resume": "简历",
+        "label.next": "06 / 下一步",
+        "label.academic": "学术案例系列",
+
+        "tag.case": "案例竞赛",
+        "tag.ai": "AI战略",
+        "tag.consumer": "消费者洞察",
+        "tag.bilingual": "双语",
+        "tag.lead": "队长",
+        "tag.sustainable": "可持续",
+        "tag.academic2": "学术",
+        "tag.cases": "4案例 • A级"
+      }
+    };
+
+    let currentLang = 'en';
+
+    function switchLanguage(lang) {
+      currentLang = lang;
+      
+      // Update toggle buttons
+      document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+      document.getElementById('lang-en').classList.toggle('bg-[#0F766E]', lang === 'en');
+      document.getElementById('lang-en').classList.toggle('text-white', lang === 'en');
+      document.getElementById('lang-en').classList.toggle('text-slate-600', lang !== 'en');
+      
+      document.getElementById('lang-zh').classList.toggle('active', lang === 'zh');
+      document.getElementById('lang-zh').classList.toggle('bg-[#0F766E]', lang === 'zh');
+      document.getElementById('lang-zh').classList.toggle('text-white', lang === 'zh');
+      document.getElementById('lang-zh').classList.toggle('text-slate-600', lang !== 'zh');
+
+      // Update all elements with data-i18n
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+          if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+            el.placeholder = translations[lang][key];
+          } else {
+            el.innerHTML = translations[lang][key];
+          }
+        }
+      });
+
+      // Update mobile nav links
+      document.querySelectorAll('.mobile-nav-link').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+          el.textContent = translations[lang][key];
+        }
+      });
+
+      // Update document lang
+      document.documentElement.lang = (lang === 'zh') ? 'zh-HK' : 'en';
+
+      // Persist choice
+      localStorage.setItem('lang', lang);
+    }
+
+    // Project data (bilingual ready)
+    const projects = [
+      {
+        id: 0,
+        title: "The Ordinary Intelligence (TOI): Native Agentic AI Growth Strategy",
+        title_zh: "The Ordinary Intelligence (TOI) 原生智能体AI增长战略",
+        org: "Oliver Wyman IMPACT Hong Kong Competition",
+        org_zh: "奥纬咨询 IMPACT 香港案例赛",
+        tags: ["Case Competition", "Agentic AI", "Skincare"],
+        tags_zh: ["案例竞赛", "智能体AI", "护肤品牌"],
+        image: "assets/images/project-ow.jpg",
+        short: "Developed The Ordinary Intelligence (TOI) — a native agentic AI with 2+1 AI Experience to address the disruption of third-party AI on brand control.",
+        short_zh: "开发 The Ordinary Intelligence (TOI) —— 原生智能体AI，结合2+1 AI体验，应对第三方AI对品牌控制的颠覆。",
+        full: "Designed the 2+1 AI Experience framework (offline AI Lab store + AI-powered retail shelf + online TOI full-cycle agent) powered by on-device skin scan CNN and cloud LLM (Azure GPT-4o + Google Veo). Built a self-reinforcing data flywheel to fuel R&D, TOI optimization, and third-party AI visibility. The strategy positions The Ordinary to own the customer relationship in the agentic AI era.",
+        full_zh: "设计2+1 AI体验框架（线下AI实验室店 + AI智能零售货架 + 线上TOI全周期智能体），由设备端皮肤扫描CNN和云端LLM（Azure GPT-4o + Google Veo）驱动。构建自强化数据飞轮，为R&D、TOI优化和第三方AI可见性提供动力。该战略让The Ordinary在智能体AI时代掌控客户关系。",
+        details: "<ul><li><strong>Role:</strong> Product matrix & competitor benchmarking, 2+1 framework design, data flywheel strategy</li><li><strong>Outcome:</strong> Complete growth strategy with implementation roadmap and financial projections; presented to judges</li><li><strong>Skills:</strong> Agentic AI strategy, customer journey mapping, data flywheel design, competitive positioning</li></ul>",
+        details_zh: "<ul><li><strong>角色：</strong>产品矩阵与竞品基准、2+1框架设计、数据飞轮战略</li><li><strong>成果：</strong>完整增长战略含实施路线图与财务预测；向评委演示</li><li><strong>技能：</strong>智能体AI战略、客户旅程映射、数据飞轮设计、竞品定位</li></ul>"
+      },
+      {
+        id: 1,
+        title: "Consumer Behavior Research — Medical Aesthetics",
+        title_zh: "医美行业消费者行为研究",
+        org: "Ipsos",
+        org_zh: "益普索",
+        tags: ["Consumer Research", "Bilingual", "Expert Interviews"],
+        tags_zh: ["消费者研究", "双语", "专家访谈"],
+        image: "assets/images/project-ipsos.jpg",
+        short: "Led primary research through expert in-depth interviews and insight synthesis for clients in the medical aesthetics sector.",
+        short_zh: "通过专家深度访谈与洞察综合，为医美行业客户主导一手研究。",
+        full: "Conducted over 20 in-depth interviews with regional sales managers, KOLs, and experts. Produced detailed bilingual summaries and competitive analyses that were directly applied in client strategy workshops and internal briefings.",
+        full_zh: "完成20+场区域销售经理、KOL与专家的深度访谈。将访谈结果整理成双语总结报告和竞争分析材料，直接应用于客户的战略讨论和内部汇报中。",
+        details: "<ul><li><strong>Role:</strong> Interview guide design, moderation support, analysis & bilingual reporting</li><li><strong>Outcome:</strong> Multiple client deliverables & internal knowledge base contributions</li><li><strong>Skills:</strong> Qualitative research, synthesis, cross-cultural communication</li></ul>",
+        details_zh: "<ul><li><strong>角色：</strong>访谈大纲设计、主持支持、分析与双语报告撰写</li><li><strong>成果：</strong>多项客户交付物及内部知识库贡献</li><li><strong>技能：</strong>定性研究、洞察综合、跨文化沟通</li></ul>"
+      },
+      {
+        id: 2,
+        title: "Sustainable Tourism Marketing Strategy",
+        title_zh: "可持续旅游营销策略",
+        org: "5th Meituan Business Analytics Competition — Team Leader",
+        org_zh: "第五届美团商业分析竞赛 — 队长",
+        tags: ["Analytics", "Team Lead", "Sustainable"],
+        tags_zh: ["数据分析", "队长", "可持续"],
+        image: "assets/images/project-meituan.jpg",
+        short: "Led a data-driven project on sustainable tourism for niche destinations in Guangdong Province using Python to analyze 10,000+ user reviews.",
+        short_zh: "作为队长，带领使用Python分析超1万条用户评论的广东省特色目的地可持续旅游数据驱动项目。",
+        full: "Integrated social media trends with visitor feedback focused on Guangdong. Proposed innovative marketing strategies including demand matching and regional resource integration. Authored a 4,500-word business report showcasing strategic thinking and cross-team collaboration.",
+        full_zh: "整合社交媒体趋势与游客反馈，重点针对广东省。提出需求匹配与区域资源整合等创新营销策略。撰写4500字商业分析报告，展示战略思维与跨团队协作能力。",
+        details: "<ul><li><strong>Role:</strong> Team leader — data collection, analysis, strategy, reporting</li><li><strong>Outcome:</strong> Comprehensive strategic report with actionable recommendations</li><li><strong>Skills:</strong> Python, consumer analysis, sustainable strategy development</li></ul>",
+        details_zh: "<ul><li><strong>角色：</strong>队长 — 数据采集、分析、策略制定、报告撰写</li><li><strong>成果：</strong>包含可执行建议的完整战略报告</li><li><strong>技能：</strong>Python、消费者分析、可持续策略开发</li></ul>"
+      },
+      {
+        id: 3,
+        isAsiaCase: true,
+        title: "Asia Case Research Center",
+        title_zh: "亚洲案例研究中心",
+        org: "The University of Hong Kong",
+        org_zh: "香港大学",
+        tags: ["Academic Project", "Strategy Analysis", "HKU"],
+        tags_zh: ["学术项目", "战略分析", "港大"],
+        image: "",
+        short: "Series of in-depth strategic case analyses conducted under the Asia Case Research Center at HKU. All cases received an A grade.",
+        short_zh: "香港大学亚洲案例研究中心开展的深度战略案例分析系列。所有案例均获A级。",
+        mainDesc: "This is a series of in-depth strategic case analyses conducted under the Asia Case Research Center at HKU. Each case involved producing a 1000-word strategic report and delivering a presentation evaluated by industry experts or company professionals, with all cases receiving an A grade.",
+        mainDesc_zh: "这是香港大学亚洲案例研究中心开展的一系列深度战略案例分析。每个案例均需撰写1000字战略报告并进行演示，由行业专家或公司专业人士评估，所有案例均获得A级。",
+        subcases: [
+          {
+            title: "Tencent AI Strategic Analysis",
+            title_zh: "腾讯AI战略分析",
+            background: "Analysis of Tencent's AI initiatives and strategic positioning within China's competitive technology landscape.",
+            background_zh: "针对腾讯AI领域的举措及其在中国激烈科技竞争格局中的战略定位进行分析。",
+            role: "Led competitive benchmarking and strategic recommendation development for AI-driven growth opportunities.",
+            role_zh: "主导AI驱动增长机会的竞品基准分析和战略建议制定。",
+            frameworks: "Porter's Five Forces, SWOT analysis, AI capability maturity model, and scenario planning.",
+            frameworks_zh: "波特五力模型、SWOT分析、AI能力成熟度模型及情景规划。",
+            deliverables: "1000-word strategic report + professional presentation reviewed by industry experts.",
+            deliverables_zh: "1000字战略报告 + 由行业专家评审的专业演示。",
+            outcome: "Received an A grade. Recognized for analytical rigor and actionable insights."
+          },
+          {
+            title: "Volkswagen EV Market Strategy",
+            title_zh: "大众汽车电动车市场战略",
+            background: "Strategic assessment of Volkswagen's EV market entry and growth strategy in key markets, with focus on competitive dynamics.",
+            background_zh: "对大众汽车在关键市场的电动车市场进入与增长战略进行评估，重点关注竞争动态。",
+            role: "Conducted market analysis, competitor positioning, and recommended go-to-market approaches.",
+            role_zh: "进行市场分析、竞品定位，并提出市场进入建议。",
+            frameworks: "PESTEL, BCG Matrix, Value Chain analysis, and customer segmentation frameworks.",
+            frameworks_zh: "PESTEL、BCG矩阵、价值链分析及客户细分框架。",
+            deliverables: "1000-word strategic report + professional presentation reviewed by industry experts.",
+            deliverables_zh: "1000字战略报告 + 由行业专家评审的专业演示。",
+            outcome: "Received an A grade."
+          },
+          {
+            title: "Maxim’s Cakes Brand Rejuvenation",
+            title_zh: "美心蛋糕品牌年轻化",
+            background: "Brand rejuvenation strategy for Maxim’s Cakes, a heritage Hong Kong bakery brand, to refresh its image and appeal to younger consumers while preserving its traditional essence.",
+            background_zh: "针对香港传统烘焙品牌美心蛋糕的品牌年轻化战略，旨在刷新品牌形象并吸引年轻消费者，同时保留其传统精髓。",
+            role: "Led consumer research and market analysis; redefined brand positioning for younger demographics; developed integrated marketing campaigns and digital engagement strategies.",
+            role_zh: "主导消费者研究与市场分析；重新定义针对年轻群体的品牌定位；制定整合营销活动与数字互动策略。",
+            frameworks: "Brand positioning map, customer persona development, integrated marketing communications (IMC), and digital marketing funnel analysis.",
+            frameworks_zh: "品牌定位图、客户画像开发、整合营销传播（IMC）及数字营销漏斗分析。",
+            deliverables: "1000-word strategic report + professional presentation reviewed by industry experts or company representatives.",
+            deliverables_zh: "1000字战略报告 + 由行业专家或公司代表评审的专业演示。",
+            outcome: "Received an A grade."
+          },
+          {
+            title: "Rabobank Human Resource Management Strategy Analysis",
+            title_zh: "荷兰合作银行人力资源管理战略分析",
+            background: "Strategic review of Rabobank's HR practices, focusing on talent development and organizational effectiveness in a global financial services context.",
+            background_zh: "对荷兰合作银行HR实践的战略审视，重点关注全球金融服务背景下的人才发展与组织效能。",
+            role: "Analyzed current HR strategy and proposed improvements using organizational frameworks.",
+            role_zh: "分析现有HR战略，并使用组织框架提出改进建议。",
+            frameworks: "McKinsey 7S Framework, Balanced Scorecard, and competency modeling.",
+            frameworks_zh: "麦肯锡7S框架、平衡计分卡及能力模型。",
+            deliverables: "1000-word strategic report + professional presentation reviewed by industry experts.",
+            deliverables_zh: "1000字战略报告 + 由行业专家评审的专业演示。",
+            outcome: "Received an A grade. Praised for depth of analysis and practical recommendations."
+          }
+        ]
+      }
+    ];
+
+    function openProjectModal(index) {
+      const p = projects[index];
+      const lang = currentLang;
+      
+      const modal = document.getElementById('project-modal');
+      const titleEl = document.getElementById('modal-title');
+      const orgEl = document.getElementById('modal-org');
+      const imageEl = document.getElementById('modal-image');
+      const imageWrapper = imageEl.parentElement;
+      const tagsContainer = document.getElementById('modal-tags');
+      const descEl = document.getElementById('modal-desc');
+      const detailsEl = document.getElementById('modal-details');
+
+      // Reset for standard view
+      imageWrapper.style.display = 'block';
+      imageEl.style.display = 'block';
+
+      titleEl.textContent = lang === 'zh' ? p.title_zh : p.title;
+      orgEl.textContent = lang === 'zh' ? p.org_zh : p.org;
+
+      tagsContainer.innerHTML = '';
+      const tags = lang === 'zh' ? p.tags_zh : p.tags;
+      tags.forEach(tag => {
+        const span = document.createElement('span');
+        span.className = 'text-xs px-3 py-1 rounded-full bg-slate-100 text-[#0F766E] font-medium';
+        span.textContent = tag;
+        tagsContainer.appendChild(span);
+      });
+
+      if (p.isAsiaCase) {
+        // Special detailed view for Asia Case Research Center - enhanced visualization
+        imageEl.style.display = 'none';
+        imageEl.parentElement.style.display = 'none';
+
+        const mainDesc = lang === 'zh' ? p.mainDesc_zh : p.mainDesc;
+
+        let subcasesHTML = `
+          <div class="mt-3">
+            <div class="flex flex-wrap gap-2 mb-5">
+              <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-xs font-medium">
+                <i class="fas fa-folder-open text-[#0F766E]"></i>
+                <span>4 Cases</span>
+              </div>
+              <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 text-xs font-medium">
+                <i class="fas fa-trophy"></i>
+                <span>All A Grades</span>
+              </div>
+              <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-xs font-medium">
+                <i class="fas fa-user-check text-[#0F766E]"></i>
+                <span>Expert Reviewed</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        `;
+
+        p.subcases.forEach((sub) => {
+          const bg = lang === 'zh' ? sub.background_zh : sub.background;
+          const role = lang === 'zh' ? sub.role_zh : sub.role;
+          const fw = lang === 'zh' ? sub.frameworks_zh : sub.frameworks;
+          const del = lang === 'zh' ? sub.deliverables_zh : sub.deliverables;
+
+          subcasesHTML += `
+            <div class="border border-slate-200 rounded-2xl p-4 hover:border-[#0F766E]/40 transition-colors flex flex-col relative overflow-hidden">
+              <div class="absolute left-0 top-0 bottom-0 w-1 bg-[#0F766E]"></div>
+              <div class="flex items-start justify-between mb-2 pl-2">
+                <h5 class="font-semibold text-slate-900 text-base leading-tight">${sub.title}</h5>
+                <span class="ml-2 px-2 py-0.5 text-[10px] font-medium bg-emerald-100 text-emerald-700 rounded flex-shrink-0">A</span>
+              </div>
+
+              <div class="space-y-[7px] text-sm mt-2 pl-2 flex-1">
+                <div class="flex gap-2">
+                  <i class="fas fa-search text-[#0F766E] mt-0.5 w-3.5 text-[13px]"></i>
+                  <div class="text-[13.5px]"><span class="font-medium text-slate-700">Focus:</span> ${bg}</div>
+                </div>
+                <div class="flex gap-2">
+                  <i class="fas fa-user-tie text-[#0F766E] mt-0.5 w-3.5 text-[13px]"></i>
+                  <div class="text-[13.5px]"><span class="font-medium text-slate-700">Role:</span> ${role}</div>
+                </div>
+                <div class="flex gap-2">
+                  <i class="fas fa-project-diagram text-[#0F766E] mt-0.5 w-3.5 text-[13px]"></i>
+                  <div class="text-[13.5px]"><span class="font-medium text-slate-700">Frameworks:</span> ${fw}</div>
+                </div>
+                <div class="flex gap-2">
+                  <i class="fas fa-file-alt text-[#0F766E] mt-0.5 w-3.5 text-[13px]"></i>
+                  <div class="text-[13.5px]"><span class="font-medium text-slate-700">Deliverables:</span> ${del}</div>
+                </div>
+                <div class="flex gap-2 pt-1">
+                  <i class="fas fa-award text-emerald-600 mt-0.5 w-3.5 text-[13px]"></i>
+                  <div class="text-[13.5px]"><span class="font-medium text-emerald-700">${sub.outcome}</span></div>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+
+        subcasesHTML += `</div></div>`;
+
+        descEl.innerHTML = `
+          <div>
+            <div class="mb-4">
+              <p class="text-[15px] text-slate-700 leading-relaxed">${mainDesc}</p>
+            </div>
+            ${subcasesHTML}
+          </div>
+        `;
+        detailsEl.innerHTML = '';
+      } else {
+        // Standard project view
+        imageEl.style.display = 'block';
+        imageEl.parentElement.style.display = 'block';
+        imageEl.src = p.image;
+
+        descEl.innerHTML = `<p>${lang === 'zh' ? p.full_zh : p.full}</p>`;
+        detailsEl.innerHTML = lang === 'zh' ? p.details_zh : p.details;
+      }
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('project-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    // Contact form handler
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      
+      // Build mailto
+      const subject = encodeURIComponent(`Portfolio Inquiry from ${name}`);
+      const body = encodeURIComponent(`Hi Ke,\n\n${message}\n\nBest regards,\n${name}\n${email}`);
+      
+      window.location.href = `mailto:kkatherine0819@gmail.com?subject=${subject}&body=${body}`;
+      
+      // Show success toast
+      const toast = document.createElement('div');
+      toast.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 bg-[#0F766E] text-white px-6 py-3 rounded-3xl shadow text-sm flex items-center gap-2';
+      toast.innerHTML = `<i class="fas fa-check"></i> <span>Opening email client...</span>`;
+      document.body.appendChild(toast);
+      
+      setTimeout(() => {
+        toast.style.transition = 'all 0.2s';
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), 150);
+      }, 2200);
+      
+      // Reset form
+      e.target.reset();
+    }
+
+    // Mobile menu
+    function initMobileMenu() {
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      
+      btn.addEventListener('click', () => {
+        const isHidden = menu.classList.contains('hidden');
+        if (isHidden) {
+          menu.classList.remove('hidden');
+          btn.innerHTML = '<i class="fas fa-times text-lg"></i>';
+        } else {
+          menu.classList.add('hidden');
+          btn.innerHTML = '<i class="fas fa-bars text-lg"></i>';
+        }
+      });
+      
+      // Close mobile menu when clicking a link
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          menu.classList.add('hidden');
+          btn.innerHTML = '<i class="fas fa-bars text-lg"></i>';
+        });
+      });
+    }
+
+    // Navbar scroll effect + active section highlighting
+    function initNavbar() {
+      const navbar = document.getElementById('navbar');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = ['about', 'education', 'experience', 'projects', 'skills', 'contact'].map(id => document.getElementById(id));
+      
+      // Scroll background effect
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          navbar.classList.add('nav-scrolled', 'shadow-sm');
+        } else {
+          navbar.classList.remove('nav-scrolled', 'shadow-sm');
+        }
+      }, { passive: true });
+
+      // Active nav highlighting with Intersection Observer
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            navLinks.forEach(link => {
+              link.classList.remove('active');
+              if (link.getAttribute('href') === `#${id}`) {
+                link.classList.add('active');
+              }
+            });
+          }
+        });
+      }, { rootMargin: "-90px 0px -40% 0px", threshold: 0.3 });
+
+      sections.forEach(section => {
+        if (section) observer.observe(section);
+      });
+
+      // Smooth scroll offset for fixed navbar
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            const offset = 70;
+            const top = target.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top, behavior: 'smooth' });
+          }
+        });
+      });
+    }
+
+    // Initialize everything
+    function initializePortfolio() {
+      initTailwind();
+      initMobileMenu();
+      initNavbar();
+
+      // Load saved language or default to English
+      const savedLang = localStorage.getItem('lang') || 'en';
+      
+      // Set correct initial button state based on saved language
+      const isZh = savedLang === 'zh';
+      document.getElementById('lang-en').classList.toggle('active', !isZh);
+      document.getElementById('lang-en').classList.toggle('bg-[#0F766E]', !isZh);
+      document.getElementById('lang-en').classList.toggle('text-white', !isZh);
+      document.getElementById('lang-en').classList.toggle('text-slate-600', isZh);
+      
+      document.getElementById('lang-zh').classList.toggle('active', isZh);
+      document.getElementById('lang-zh').classList.toggle('bg-[#0F766E]', isZh);
+      document.getElementById('lang-zh').classList.toggle('text-white', isZh);
+      document.getElementById('lang-zh').classList.toggle('text-slate-600', !isZh);
+      
+      switchLanguage(savedLang);
+
+      // Keyboard escape for modal
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          const modal = document.getElementById('project-modal');
+          if (!modal.classList.contains('hidden')) closeModal();
+        }
+      });
+
+      // Subtle entrance animation hint (optional polish)
+      setTimeout(() => {
+        const hero = document.getElementById('hero');
+        if (hero) hero.style.transition = 'opacity 0.6s ease';
+      }, 300);
+
+      // Mark ready
+      console.log('%c[Portfolio] Ke Wang bilingual portfolio initialized successfully.', 'color:#059669');
+    }
+
+    // Boot
+    document.addEventListener('DOMContentLoaded', initializePortfolio);
+  </script>
+</body>
+</html>
